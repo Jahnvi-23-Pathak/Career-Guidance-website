@@ -36,7 +36,7 @@
           <a class="nav-link" id="links" href="interest.html">GUIDANCE</a>
         </li>
           <li class="nav-item">
-            <a class="nav-link" id="links" href="login.html">SIGN IN</a>
+            <a class="nav-link" id="links" href="loginpage.html">SIGN IN</a>
           </li>
         </ul>
       </div>
@@ -53,6 +53,12 @@
                      </div>
                  </div>
              </div>
+
+             <div class="login">
+              <a href="loginpage.html">
+                <button type="button" class="btn btn-dark" id="btns1">Let's Begin</button>
+              </a>
+            </div>
              <div class="row">
                  <div class="col-sm-12 col-md-12 col-md-12">
                     <div class="scrolls">
@@ -69,17 +75,19 @@
         <div class="container" id="does">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="who">Who <span class="guide">We Are</span></h2>
+              <h2 class="who">ABOUT<span class="guide"> US...!!</span></h2>
             </div>
             <div class="row">
               <div class="col-md-12">
                 <div class="say">
-                  <p class="wassup"> JP Career Guidance is a webpage that offers insights in both life, social and school skills.<br>We strive to give you world class advice on career choices based on
-                    interests, IQ(intelligence quotient) as well as a stable position in the days of tomorrow <br> With a team of diversity in culture and ethnicity, we give you access to banks of information from all corners of the
-                    globe.<br>We guarantee you a blissful experience as we help you navigate the perilous waters of life after high school on this great journey.<br>Join us and be part of the experience.<br> </p>
+                  <p class="wassup"><centre>JP Career Guidance is a webpage that offers insights in career life.<br>
+                    We provide you with the best career choices according to your interest and education backgrounds.<br>
+                    We guarantee you a blissful experience as we help you navigate the perilous waters of life after high school on this great journey.
+                    Join us and be part of the experience.
+                  </centre></p>
                 </div>
                 <div class="login">
-                  <a href="login.html">
+                  <a href="loginpage.html">
                     <button type="button" class="btn btn-dark" id="btns">Let's Begin</button>
                   </a>
                 </div>
@@ -117,31 +125,33 @@
             </ul>
           </div>
           <div class="contactform">
-            <h2>Send A Message</h2>
+            <h2>Connect with us...!!</h2>
             <div class="formbox">
               <div class="inputbox w50">
-                <input type="text" required>
+                <form action="message.php" id="msg_form" class="form-container" method="POST">
+                <input type="text" name="firstname" required>
                 <span>First Name</span>
               </div>
               <div class="inputbox w50">
-                <input type="text" required>
+                <input type="text" name="firstname" required>
                 <span>Last Name</span>
               </div>
               <div class="inputbox w50">
-               <input type="email" required>
+               <input type="email" name="lastname" required>
                <span>Email Address</span>
               </div>
               <div class="inputbox w50">
-                <input type="text" required>
+                <input type="text" name="mobile" required>
                 <span>Mobile Number</span>
               </div>
               <div class="inputbox w100">
-                <textarea required></textarea>
+                <textarea name="text" required></textarea>
                 <span>Write your message here...</span>
               </div>
               <div class="inputbox w50">
                 <input type="submit" value="Send">
               </div>
+            </form>
             </div>
           </div>
         </div>

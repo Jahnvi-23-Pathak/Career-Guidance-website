@@ -245,8 +245,8 @@ body{
     margin-top: 20px;
 }
 #btns{
-    background-color: #D35400;
-    border: 5px solid #D35400;
+  background-color: #701145;
+  border: 5px solid #851058;   
 }
 #btns:hover{
     color: white;
@@ -288,14 +288,14 @@ body{
   }
 
   #about {
-  background-image: linear-gradient(to right top, #E5E7E9, #E1E4E6, #DDE1E3, #D9DEDF, #D5DBDB);
+  background-image: linear-gradient(to right top, #e798b0, #aed4ee, #add6eb, #a3ebf8, #ebc989);
   padding-bottom: 30px;
 }
 
 .who {
   text-align: center;
   padding-top: 8%;
-  color: #223141;
+  color: #6e0d32;
   font-weight: 900;
   font-family: "Oswald", sans-serif;
 }
@@ -315,7 +315,7 @@ body{
 }
 
 .guide{
-  color: #D35400;
+  color: #b3475f;
   font-weight: 900;
   font-family: "Oswald", sans-serif;
 }
@@ -331,5 +331,14 @@ body{
       margin-left: 40%;
     }
 }
-
+#btns1{
+  background-color: #D35400;
+  border: 5px solid #e98340;
+  margin-top: 50px;
+}
+#btns1:hover{
+  color: white;
+  background-color: black;
+  border: 5px solid black;
+}
 

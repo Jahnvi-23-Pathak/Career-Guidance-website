@@ -180,8 +180,8 @@ hr {
   font-weight: 800;
 }
 .mycourse {
-  background-color: #112d42;
-  margin-left: 40px;
+  background-color: #940849;
+  margin-left: 60px;
   margin-right: 40px;
   padding-top: 20px;
   padding-bottom: 40px;
@@ -446,4 +446,9 @@ body {
 }
 #contain .contactform .formbox .inputbox input[type="submit"]:hover {
   background: #0d948d;
+}
+
+h3:hover{
+  po
+  
 }
