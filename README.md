@@ -30,7 +30,7 @@ A website that will help students make career decisions based on their careeer i
     
   
 ## Live link
-[Career Guidance](https://samwel-chege.github.io/Career-Guidance/)
+https://jahnvi-23-pathak.github.io/Career-guidance-website.github.io/
 ​
 ## Technologies used
  - HTML
